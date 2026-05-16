@@ -1,0 +1,20 @@
+{
+  "name": "aula-crud",
+  "version": "1.0.0",
+  "description": "project crud (express and mysql)",
+  "license": "ISC",
+  "author": "Caio Mandarino",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "0g": "^0.4.2",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3",
+    "nodemon": "^3.1.14"
+  }
+}
